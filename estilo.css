@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Helvetica", sans-serif;
+	background-color: #FFF;
+}
+
+/* ==================== row ===================*/
+.row {
+	padding: 110px;
+	overflow: hidden;
+}
+
+.row article {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 50px;
+	background-color: #1FF;
+}
+
+.row article:last-child {
+	margin-bottom: 0px;
+}
+
+.row article div {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.text {
+	padding: 50px;
+}
+
+.image {
+	background-size: cover;
+}
+
+.profile_pic {
+	background: url(/home/andre/Desktop/Link to Avell G1511 MAX/Documents/Unifor/MyProject/minhaPagina/imgs/20130904_184747.jpg);
+}
+
+
+.row article h3 {
+	color: #444;
+	display: inline-block;
+	margin: 0px;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.row article p {
+	color: #999;
+	line-height: 30px;
+	margin: 20px 0px;
+}
