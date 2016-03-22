@@ -16,7 +16,7 @@ body {
 
 .row article {
 	width: 100%;
-	height: 300px;
+	height: 448px;
 	margin-bottom: 50px;
 	background-color: #1FF;
 }
@@ -35,12 +35,8 @@ body {
 	padding: 50px;
 }
 
-.image {
-	background-size: cover;
-}
-
 .profile_pic {
-	background: url(/home/andre/Desktop/Link to Avell G1511 MAX/Documents/Unifor/MyProject/minhaPagina/imgs/20130904_184747.jpg);
+	background: url(imgs/rsz_20130904_184747.png) no-repeat;
 }
 
 
